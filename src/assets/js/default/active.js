@@ -13,10 +13,7 @@
             $(this).remove();
         });
     });
-    document.getElementById("KukiesMallNavbarToggler").addEventListener('click', () => {
-            alert('HEllo world')
-        })
-        // :: 2.0 Navbar
+    // :: 2.0 Navbar
     $("#KukiesMallNavbarToggler").on("click", function() {
         sideNavWrapper.addClass("nav-active");
         headerArea.addClass("header-out");
