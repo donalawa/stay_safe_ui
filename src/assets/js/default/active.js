@@ -13,10 +13,11 @@
             $(this).remove();
         });
     });
-
-    // :: 2.0 Navbar
+    document.getElementById("KukiesMallNavbarToggler").addEventListener('click', () => {
+            alert('HEllo world')
+        })
+        // :: 2.0 Navbar
     $("#KukiesMallNavbarToggler").on("click", function() {
-        alert('Nav Click')
         sideNavWrapper.addClass("nav-active");
         headerArea.addClass("header-out");
         footerNav.addClass("footer-out");
