@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "safeApp"
+    }
+  },
+  "defaultProject": "safeApp",
+  "cli": {
+    "analytics": false
+  }
 }

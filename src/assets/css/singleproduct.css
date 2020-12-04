@@ -1,0 +1,11 @@
+
+.location-thumb{
+   /* background-color: red;  */
+   width: 250px;
+}
+.badge{
+    box-shadow: 10px 10px 20px 0 rgba(8,25,43,.1);
+}
+.location-thumb img{
+    width: 150px !important;
+}
